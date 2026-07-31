@@ -1,0 +1,19 @@
+<svg width="1400" height="180" viewBox="0 0 1400 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerGrad" x1="0" y1="0" x2="1400" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#36BCF7"/>
+      <stop offset="0.5" stop-color="#2c5364"/>
+      <stop offset="1" stop-color="#0f2027"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="180" rx="24" fill="url(#footerGrad)"/>
+  <path d="M-20 110C140 80 260 70 420 96C590 124 740 146 910 124C1060 104 1200 78 1420 92" stroke="#ffffff" stroke-opacity="0.28" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M-20 110C140 80 260 70 420 96C590 124 740 146 910 124C1060 104 1200 78 1420 92;M-20 126C150 96 300 90 460 116C630 144 780 158 950 136C1100 116 1240 90 1420 108;M-20 110C140 80 260 70 420 96C590 124 740 146 910 124C1060 104 1200 78 1420 92"/>
+  </path>
+  <circle cx="208" cy="92" r="6" fill="#ffffff" fill-opacity="0.8">
+    <animate attributeName="cx" values="208;330;450;570;690;820;960;1100;1280" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;1;0.7;1;0.6;1;0.8;1;0.3" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <text x="110" y="74" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Always shipping fast, secure, and curious.</text>
+  <text x="110" y="116" fill="#dceffd" font-family="Segoe UI, Arial, sans-serif" font-size="18">Go • Python • TypeScript • Linux • Docker • PostgreSQL • Redis</text>
+</svg>
